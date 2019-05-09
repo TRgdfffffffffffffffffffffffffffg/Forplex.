@@ -1,57 +1,28 @@
-{
-  "name": "Forplex",
-  "description": "",zfzkneilhfbezuyfze
-  "version": "0.0.0", ezrfejzhigfez_yg_gfz
-
-  "main": "bot.js",NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
-
-  "scripts": {eztezkrontuhnseqriup vsqiubdygbtfzys ègrzèygeeyfgz
-    "start": "node bot.js"ID 5a0e74ce-3126-4df6-baea-23b324a45b0f
-
-  },
-  "dependencies": hjhkjkjhlytyjv ndjruyerbnuiosfn 
-    "discord.js": "11.1.0",enoernçhçu)erhu))fv)zuç_sg_gf_èzeg_ètg_zeh
-    "request": "2.81.0"Forplex.zjhevuzevuvzeèyvèerzègvoyvboygvyor_zqf
-
-  }
-}
-See https://devcenter.heroku.com/articles/buildpacks
-erte:;ternùoknerpg,kre
-erng=eô$jge
-gj,e$jgineouibnhgebrugze
-nirg=uerug_y)ber_ygybc
-sjgçuierhçu)hgehrg
-sgàhjrç)_èhetg_èr_gygsj
-sftjruir-tryjfg
-    For more information, refer to the following documentation:
+App not compatible with buildpack: https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/nodejs.tgz
+       
+ !     ERROR: Application not supported by 'heroku/nodejs' buildpack
+ !     
+ !     The 'heroku/nodejs' buildpack is set on this application, but was
+ !     unable to detect a Node.js codebase.
+ !         
+ !     A Node.js app on Heroku requires a 'package.json' at the root of
+ !     the directory structure.
+ !     
+ !     If you are trying to deploy a Node.js application, ensure that this
+ !     file is present at the top level directory. This directory has the
+ !     following files:
+ !     
+ !     bot.js
+ !     pacage.
+ !     procfile
+ !     README.md
+ !         
+ !     If you are trying to deploy an application written in another
+ !     language, you need to change the list of buildpacks set on your
+ !     Heroku app using the 'heroku buildpacks' command.
+ !         
+ !     For more information, refer to the following documentation:
  !     https://devcenter.heroku.com/articles/buildpacks
  !     https://devcenter.heroku.com/articles/nodejs-support#activation
        More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
- !     Push failed    For more information, refer to the following documentation:
- !     https://devcenter.heroku.com/articles/buildpacks
- !     https://devcenter.heroku.com/articles/nodejs-support#activation
-       More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
- !     Push failed    For more information, refer to the following documentation:
- !     https://devcenter.heroku.com/articles/buildpacks
- !     https://devcenter.heroku.com/articles/nodejs-support#activation
-       More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
- !     Push failed    For more information, refer to the following documentation:
- !     https://devcenter.heroku.com/articles/buildpacks
- !     https://devcenter.heroku.com/articles/nodejs-support#activation
-       More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
- !     Push failed    For more information, refer to the following documentation:
- !     https://devcenter.heroku.com/articles/buildpacks
- !     https://devcenter.heroku.com/articles/nodejs-support#activation
-       More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
- !     Push failed-(u_-(_è(^l,ofj,-è)ài-'
- (-_ç(-çiçè*
- ('-çuè(
-  uè(àç_à= gh
-  df gkdf)çj yçjdf 
-  /clear
-  *xknwv 
-  /sdgskondg
-  /sdgkknsdog
-  sdgsdkjhbxV
-  sd,gkodsjùmlf;s
-  
+ !     Push failed
