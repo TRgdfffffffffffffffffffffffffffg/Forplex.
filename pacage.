@@ -12,3 +12,73 @@ make test-cedar-14
 make test-heroku-16
 
 heroku create --buildpack https://github.com/heroku/heroku-buildpack-nodejs.git
+heroku buildpacks:search elixir
+Buildpack        Category   Description
+───────────────  ─────────  ───────────────────────────
+hashnuke/elixir  languages  Heroku Buildpack for Elixir
+
+heroku buildpacks:info hashnuke/elixir
+description: Heroku Buildpack for Elixir
+category:    languages
+license:     MIT License
+support:     https://github.com/HashNuke/heroku-buildpack-elixir/issues
+source:      https://github.com/HashNuke/heroku-buildpack-elixir
+readme:
+
+heroku buildpacks:set hashnuke/elixir
+Buildpack set. Next release on agile-plains-12843 will use hashnuke/elixir.
+Run git push heroku master to create a new release using this buildpack.
+Third-party buildpacks contain software that is not under Heroku’s control, and they are n
+heroku create myapp --buildpack https://github.com/some/buildpack.git
+heroku buildpacks:set https://github.com/some/buildpack.git -a myapp
+heroku buildpacks:set https://github.com/some/buildpack.git#01applications
+heroku buildpacks:clear
+https://github.com/heroku/heroku-buildpack-nodejs.git#somedevbranch
+https://github.com/heroku/heroku-buildpack-ruby.git#v9861
+{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  }
+}{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "0.0.1",
+  "engines": {
+    "npm": "6.x"
+  }
+}{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "yarn": "1.x"
+  }
+}heroku config:set NPM_CONFIG_PRODUCTION=true YARN_PRODUCTION=true
+heroku config:set NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false
+git push heroku master
+...
+-----> Pruning devDependencies
+       Skipping because NODE_ENV is 'test'
+..."scripts": {
+  "start": "node index.js",
+  "build": "webpack"
+}"scripts": {
+  "start": "node index.js",
+  "build": "ng build",
+  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+}"scripts": {
+  "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+  "heroku-postbuild": "echo This runs afterwards."
+}heroku config:set MY_CUSTOM_VALUE=foobar
+heroku config:set NODE_MODULES_CACHE=false
+git commit -am 'disable node_modules cache' --allow-empty
+git push heroku master"cacheDirectories": ["client/node_modules", "server/node_modules"]"cacheDirectories": ["data"]
+cat Procfile
+web: npm startheroku config:set NODE_ENV=staging
+"scripts": {
+  "start": "node server.js"
+}heroku scale web=0 worker=1
+heroku scale web=0 worker=1
