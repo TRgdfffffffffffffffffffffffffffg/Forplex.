@@ -73,12 +73,21 @@ git push heroku master
   "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
   "heroku-postbuild": "echo This runs afterwards."
 }heroku config:set MY_CUSTOM_VALUE=foobar
-heroku config:set NODE_MODULES_CACHE=false
-git commit -am 'disable node_modules cache' --allow-empty
-git push heroku master"cacheDirectories": ["client/node_modules", "server/node_modules"]"cacheDirectories": ["data"]
-cat Procfile
-web: npm startheroku config:set NODE_ENV=staging
-"scripts": {
-  "start": "node server.js"
-}heroku scale web=0 worker=1
-heroku scale web=0 worker=1
+heroku config:set heroku buildpacks:search elixir
+Buildpack        Category   Description
+───────────────  ─────────  ───────────────────────────
+hashnuke/elixir  languages  Heroku Buildpack for Elixir
+
+heroku buildpacks:info hashnuke/elixir
+description: Heroku Buildpack for Elixir
+category:    languages
+license:     MIT License
+support:     https://github.com/HashNuke/heroku-buildpack-elixir/issues
+source:      https://github.com/HashNuke/heroku-buildpack-elixir
+readme:
+
+heroku buildpacks:set hashnuke/elixir
+Buildpack set. Next release on agile-plains-12843 will use hashnuke/elixir.
+Run git push heroku master to create a new release using this buildpack.heroku buildpacks:set heroku/php
+Buildpack set. Next release on random-app-1234 will use heroku/php.
+Run `git push heroku master` to create a new release using this buildpack.
