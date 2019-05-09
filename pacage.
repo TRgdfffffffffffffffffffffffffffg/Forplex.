@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node bot.js" 
   },
-  "dependencies": {
+  "dependencies": {See https://devcenter.heroku.com/articles/buildpacks
     "discord.js": "11.1.0",
     "request": "2.81.0"  
 
