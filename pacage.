@@ -6,11 +6,11 @@
   "main": "bot.js",NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
 
   "scripts": {
-    "start": "node bot.js" 
+    "start": "node bot.js"NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
   },
   "dependencies": 
     "discord.js": "11.1.0",
-    "request": "2.81.0"  
+    "request": "2.81.0"Forplex.
 
   }
 }
