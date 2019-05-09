@@ -1,0 +1,16 @@
+{
+  "name": "Forplex",
+  "description": "-invites -help",
+  "version": "0.0.0", NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
+
+  "main": "bot.js",NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
+
+  "scripts": {
+    "start": "node bot.js" https://discordapp.com/api/oauth2/authorize?client_id=576057168998957066&permissions=0&scope=bot
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"  NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
+
+  }
+}
