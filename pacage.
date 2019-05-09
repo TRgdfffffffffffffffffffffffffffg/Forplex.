@@ -6,7 +6,8 @@
   "main": "bot.js",NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
 
   "scripts": {
-    "start": "node bot.js"NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
+    "start": "node bot.js"ID 5a0e74ce-3126-4df6-baea-23b324a45b0f
+
   },
   "dependencies": 
     "discord.js": "11.1.0",
