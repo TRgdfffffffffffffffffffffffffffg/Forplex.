@@ -1,6 +1,6 @@
 {
   "name": "Forplex",
-  "description": "-invites -help",
+  "description": "",
   "version": "0.0.0", NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
 
   "main": "bot.js",NTc2MDU3MTY4OTk4OTU3MDY2.XNRBdg.uF-LHDYe_MNKQDTCDR2peQdg3VA
@@ -8,9 +8,10 @@
   "scripts": {
     "start": "node bot.js" 
   },
-  "dependencies": {See https://devcenter.heroku.com/articles/buildpacks
+  "dependencies": 
     "discord.js": "11.1.0",
     "request": "2.81.0"  
 
   }
 }
+See https://devcenter.heroku.com/articles/buildpacks
